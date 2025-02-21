@@ -1,6 +1,6 @@
 Deployment Link: https://eco-friendly-traveller.vercel.app/
 
-![Screenshot (23)](https://github.com/user-attachments/assets/4e484707-50b6-4361-b418-60d3a1edc865)
+
 ![Screenshot (24)](https://github.com/user-attachments/assets/ab54aa05-b149-4c9c-9077-bd5f154293ec)
 ![Screenshot (25)](https://github.com/user-attachments/assets/bba350f1-3198-4fa0-8688-e736709d2810)
 ![Screenshot (26)](https://github.com/user-attachments/assets/55ecc300-eb07-41bd-9354-68e08d081868)
