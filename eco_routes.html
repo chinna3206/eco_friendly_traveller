@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Friendly Routes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <div class="logo">Eco-Travel</div>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="why-eco-friendly.html">Why Eco-Friendly Travel?</a></li>
+                <li class="nav-item"><a class="nav-link" href="eco_routes.html">Eco Routes</a></li>
+                <li class="nav-item"><a class="nav-link" href="features.html">Features</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <header>
+        <h1>Find the Best Route</h1>
+        <p>Find the best sustainable travel routes between two locations.</p>
+    </header>
+
+    <!-- Route Search Section -->
+    <section class="search">
+        <input type="text" id="start-location" placeholder="Enter Starting Location...">
+        <input type="text" id="destination" placeholder="Enter Destination...">
+        <button onclick="findEcoRoute()">Find Route</button>
+    </section>
+
+    <!-- Suggested Routes -->
+    <section class="routes">
+        
+        <div id="route-options">
+            <p>Enter locations to find the best green travel options.</p>
+        </div>
+    </section>
+
+    <!-- Carbon Footprint Calculator -->
+    <section class="carbon-tracker">
+        <h2>♻️ Carbon Footprint Calculator</h2>
+        <label for="distance">Distance (km):</label>
+        <input type="number" id="distance" placeholder="Enter km">
+        <button onclick="calculateCarbon()">Calculate</button>
+        <p id="carbon-result"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Eco-Friendly Travel Planner | Travel Sustainably 🌿</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
